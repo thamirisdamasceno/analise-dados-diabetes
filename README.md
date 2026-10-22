@@ -43,7 +43,7 @@ A análise também aborda a qualidade da base, com foco na investigação de val
 
 [Consultar a base no Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
-O arquivo CSV utilizado na análise é carregado diretamente de um repositório público no GitHub. A equivalência exata entre esse arquivo e a versão disponibilizada no Kaggle não foi verificada.
+O arquivo CSV utilizado na análise é carregado diretamente de um repositório público no GitHub.
 
 ## Principais observações
 
@@ -52,8 +52,6 @@ A análise identificou diferenças nos níveis de glicose e na distribuição da
 Na análise de correlação após o tratamento dos valores zero, a glicose apresentou a maior correlação positiva com a variável indicadora de diabetes, seguida pelo IMC e pela insulina.
 
 Também foram identificados valores zero em cinco variáveis clínicas. Esses valores foram tratados como ausentes em uma cópia da base para investigar seu impacto nas análises, mantendo os dados originais preservados.
-
-Os resultados são exploratórios. As correlações identificadas não demonstram causalidade, e as limitações relacionadas aos valores ausentes devem ser consideradas na interpretação dos resultados.
 
 ## Como visualizar o projeto
 
